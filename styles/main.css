@@ -220,13 +220,13 @@ h1, h2, h3, h4, h5, h6, p {
     flex-wrap: wrap;
 }
 .card__item-one {
-    max-width: 390px;
+    max-width: 392px;
     width: 100%;
 }
 
 .card__item-two {
     margin-top: 285px;
-    max-width: 400px;
+    max-width: 392px;
     width: 100%;
 }
 
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .card__name {
     margin-top: 138px;
-    margin-left: 90px;
+    margin-left: 76px;
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 30px;
@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .it__works_p-size {
     margin-top: 55px;
-    max-width: 382px;
+    max-width: 392px;
 }
 
 
