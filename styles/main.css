@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font-family: "Lato", sans-serif;
+    --second-family: "Georgia", sans-serif;
+    --third-family: "Avenir", sans-serif;
+    --accent-color: #01996d;
+
+}
+
+.text_p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #292929;
+}
+
+
+/* header */
+.header {
+}
+.container__header {
+    margin: 0 auto;
+    max-width: 1370px;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    align-self: center;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.header__logo:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.menu__items {
+    display: flex;;
+    max-width: 557px;
+    width: 100%;
+    gap: 72px;
+    margin-left: -95px;
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: #292929;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.menu__item a:hover {
+    color: #000;
+    scale: 10px;
+    transform: scale(1.1);
+}
+
+.menu__authorization {
+}
+.button__sign {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.5s ease;
+    font-weight: 400;
+    margin-right: 35px;
+
+}
+.button__sign:hover {
+    transform: scale(1.1);
+}
+
+.button__trial {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    line-height: 125%;
+    padding: 13px 50px;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    padding: 13px 50px;
+    background-color: var(--accent-color);
+    transition: padding 0.5s ease, margin 0.5s ease;
+}
+
+.button__trial:hover {
+    padding: 15px 53px;
+    margin: -2px -3px; 
+}
