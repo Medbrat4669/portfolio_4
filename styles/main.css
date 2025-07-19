@@ -56,9 +56,6 @@ h1, h2, h3, h4, h5, h6, p {
     transform: scale(1.1);
 }
 
-
-
-
 .menu__items {
     display: flex;;
     max-width: 557px;
@@ -91,7 +88,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: inline-block;
     transition: transform 0.5s ease;
     font-weight: 400;
-    margin-right: 35px;
+    margin-right: 29px;
 
 }
 .button__sign:hover {
@@ -112,6 +109,54 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .button__trial:hover {
-    padding: 15px 53px;
-    margin: -2px -3px; 
+    padding: 15px 52px;
+    margin: -2px; 
+}
+
+.container__header-background {
+    background-image: url("../img/background-grader.png");
+    background-size: auto;
+    height: 895px;
+    background-position: center;
+}
+
+.header__text {
+    max-width: 1370px;
+    margin: 0 auto;
+    
+
+}
+
+.header_h1 {
+    padding-top: 180px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--accent-color);
+}
+.header_p {
+    margin-top: 26px;
+    max-width: 440px;
+    font-weight: 400;
+    line-height: 157%;
+    color: #484848;
+}
+
+.button__find-your {
+    margin-top: 45px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 125%;
+    color: #fff;
+    background-color: var(--accent-color);
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 4px;
+    border: none;
+    transition: padding 0.5s ease, margin 0.5s ease;
+}
+
+.button__find-your:hover {
+    padding: 22px 52px;
+    margin: -2;
 }
