@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 }
 
+
 .text_p {
     font-family: var(--font-family);
     font-weight: 500;
@@ -159,4 +160,101 @@ h1, h2, h3, h4, h5, h6, p {
 .button__find-your:hover {
     padding: 22px 52px;
     margin: -2;
+}
+
+
+/* it works */
+
+.it__works {
+    margin-top: 169px;
+    margin-bottom: 50px;
+}
+.container__it-works {
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.it__works-top {
+    display: flex;
+    justify-content: space-between;
+}
+.it__works-left {
+    display: flex;
+    flex-direction: column;
+}
+.works__left_p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+.it__works_h2 {
+    max-width: 584px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: var(--accent-color);
+}
+.it__works-right {
+    margin-top: 55px;
+    max-width: 671px;
+}
+.it__works_p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+.it__works-bottom {
+    margin-top: 49px;
+    display: flex;
+    justify-content: space-between;
+}
+.card__item-one {
+}
+
+.card__item-two {
+    margin-top: 285px;
+}
+
+.card__item-three {
+    margin-top: 50px;
+}
+
+.card__number {
+    position: absolute;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    color: rgba(1, 153, 109, 0.2);
+}
+.card__name {
+    margin-top: 138px;
+    margin-left: 90px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000;
+}
+
+.card__name-three {
+    margin-left: 130px;
+}
+
+.it__works_p-size {
+    margin-top: 55px;
+    max-width: 382px;
+}
+
+
+.card__img {
+    margin-top: 45px;
 }
