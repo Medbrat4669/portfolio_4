@@ -216,12 +216,18 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 49px;
     display: flex;
     justify-content: space-between;
+    gap: 95px;
+    flex-wrap: wrap;
 }
 .card__item-one {
+    max-width: 390px;
+    width: 100%;
 }
 
 .card__item-two {
     margin-top: 285px;
+    max-width: 400px;
+    width: 100%;
 }
 
 .card__item-three {
@@ -244,6 +250,8 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 30px;
     line-height: 150%;
     color: #000;
+    max-width: 392px;
+    
 }
 
 .card__name-three {
