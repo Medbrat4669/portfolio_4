@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .container__header-background {
     background-image: url("../img/background-grader.png");
-    background-size: auto;
+    background-size: cover;
     height: 895px;
     background-position: center;
     background-repeat: no-repeat;
@@ -216,8 +216,8 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 49px;
     display: flex;
     justify-content: space-between;
-    gap: 95px;
     flex-wrap: wrap;
+
 }
 .card__item-one {
     max-width: 392px;
@@ -232,7 +232,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .card__item-three {
     margin-top: 50px;
+    max-width: 392px;
+    width: 100%;
 }
+
 
 .card__number {
     position: absolute;
@@ -266,4 +269,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 .card__img {
     margin-top: 45px;
+}
+
+.story__right {
+    width: 85vw;
+    border-radius: 5px;
+}
+
+.story__right>video {
+    cursor: pointer;
+    width: 101%;
+    padding-left: 50px;
 }
