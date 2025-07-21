@@ -470,3 +470,58 @@ h1, h2, h3, h4, h5, h6, p {
 .product__right_button:hover {
     padding: 22px 52px;
 }
+
+/* footer */
+.footer {
+    background-color: #245852;;
+}
+.container__footer {
+    max-width: 1370px;
+    width: 100%;
+    height: 654px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer__logo {
+    margin-top: -50px;
+    font-family: var(--third-family);
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+.footer__logo:hover {
+    transform: scale(1.1);
+}
+
+
+.footer__menu__items {
+    list-style: none;
+
+}
+
+.footer__menu__items li {
+    margin-top: 60px;
+}
+
+.footer__menu__item a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer__menu__item {
+    transition: transform 0.5s ease;
+    transform-origin: left;
+}
+
+.footer__menu__item:hover{
+    transform: scale(1.1);
+}
