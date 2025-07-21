@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
 }
 
-*, *::after, *::before {
+*, *::before, *::after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -327,4 +327,146 @@ h1, h2, h3, h4, h5, h6, p {
 .story__right video {
     border-radius: 4px;
     background: rgba(0, 0, 0, 0.2);
+}
+
+/* our product */
+
+.our__product {
+    padding-top: 120px;
+    padding-bottom: 168px;
+}
+.container__product {
+    max-width: 1370px;
+    width: 100%;
+    height: 648px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.product__left {
+    position: relative;
+    padding-left: 60px;
+}
+.product__left__img {
+    background-color: rgba(1, 153, 109, 0.2);;
+    width: 638px;
+    height: 573px;
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+    align-items: center;
+}
+
+.product__left__card {
+    position: absolute;
+    width: 296px;
+    height: 293px;
+    box-shadow: 0 4px 18px 0 rgba(165, 165, 165, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 23px;
+    border-radius: 4px;
+    background: #fff; /* Добавлено, чтобы содержимое под карточкой не просвечивало */
+    left: 0px; /* Регулируйте это значение для нужного положения по горизонтали */
+    bottom: 0px; /* Регулируйте это значение для нужного положения по вертикали */
+    z-index: 10; /* Убедитесь, что карточка выше других элементов */
+}
+.product__left__card_h5 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 157%;
+    text-align: center;
+    color: #000;
+}
+.product__left__line {
+    border: 0.75px solid #000;
+    width: 110px;
+    height: 0px;
+    margin-top: 8px;
+}
+.product__left__icon {
+    align-self: center;
+    margin-top: 14px;
+    width: 57px;
+    height: 57px;
+}
+.product__left__name-card {
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 157%;
+    text-align: center;
+    color: #000;
+}
+.product__left__name__content-title {
+    margin-top: 20px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 157%;
+    color: #000;
+}
+.product__left__name__content {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 157%;
+    text-align: center;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product__left__name__content li {
+    margin-top: 16px;
+    margin-left: -40px;
+}
+
+
+.product__right {
+}
+.product__right-h6 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #424242;
+}
+.product__right_h2 {
+    margin-top: 10px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: var(--accent-color);
+}
+.product__right_p {
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 157%;
+    color: #484848;
+}
+.product__right_button {
+    margin-top: 28px;
+    display: inline-block;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    padding: 20px 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #fff;
+    text-decoration: none;
+    transition: padding 0.5s ease;
+}
+
+.product__right_button:hover {
+    padding: 22px 52px;
 }
