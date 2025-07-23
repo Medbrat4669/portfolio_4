@@ -229,6 +229,9 @@ h1, h2, h3, h4, h5, h6, p {
         flex-direction: column;
         align-items: center;
     }
+    .header__text {
+        padding: 0 10px;
+    }
 
     .header_p {
         text-shadow: 0 0 8px rgb(255, 255, 255, 1);
@@ -252,6 +255,7 @@ h1, h2, h3, h4, h5, h6, p {
 
     .button__find-your {
         padding: 10px 25px;
+        margin-bottom: 10px;
     }
 
 }
@@ -468,6 +472,16 @@ h1, h2, h3, h4, h5, h6, p {
     background: rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (max-width: 1600px) {
+    .story__left {
+        padding-left: 15px;
+    }
+
+    .story__right {
+        padding-right: 15px;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     .story {
         height: auto;
@@ -475,10 +489,10 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .container__story {
-        padding: 0 20px;
         flex-direction: column;
         align-items: center;
     }
+
 
     .story__left {
         margin-top: 15px;
@@ -498,6 +512,14 @@ h1, h2, h3, h4, h5, h6, p {
 
     .button__story {
         padding: 10px 25px;
+    }
+
+    .story__left {
+        padding-left: 15px;
+    }
+
+    .story__right {
+        padding-right: 0;
     }
 }
 
