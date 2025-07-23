@@ -467,6 +467,39 @@ h1, h2, h3, h4, h5, h6, p {
     background: rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (max-width: 1400px) {
+    .story {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .container__story {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .story__left {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .story__right video {
+        max-width: 800px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .story_h2 {
+        font-size: 30px;
+    }
+
+    .button__story {
+        padding: 10px 25px;
+    }
+}
+
 /* our product */
 
 .our__product {
